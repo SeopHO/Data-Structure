@@ -27,7 +27,7 @@ int deQueue()
     }
     else
     {
-        front = (front+1)%MAX; //먼저 front값을 증가시킨다. 11번줄과 이 줄의 식은 1,2,3....MAX 값으로 계속 반복된다.
+        front = (front+1)%MAX; //먼저 front값을 증가시킨다. 11번줄과 이 줄의 식은 1,2,3....MAX 값으로  계속 반복된다.
         return queue[front];
     }
 }
